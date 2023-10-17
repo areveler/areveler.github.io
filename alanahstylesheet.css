@@ -25,11 +25,10 @@ h3{
 	font-size:19px;
 }
 
-/* paragraph used on the second pages. Second page it a bit more fun. Made font blue to change it up, centered it, made font size bigger*/
+/* paragraph used on the second pages. Second page it a bit more fun.centered it, made font size bigger*/
 p{
 	text-align: center;
 	font-size: 18px;
-	color:#00008B;
 	font-weight:normal;
 	}
 
@@ -47,12 +46,39 @@ li{
 	font-family:Arial, Helvetic, sans-serif;
 	font-size:16px;
 }
+/* CSS for image option*/
 /*Having the images centered made it look balence. Informationt to center is from: https://www.w3schools.com/howto/howto_css_image_center.asp*/
+/*used id to make the image in native resolution*/
 img{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
 }
+	
+#headshot{
+	width:191;
+	height:200px;
+}
+
+#toby{
+	width:195px;
+	height:220px;
+}
+#kincardine{
+	width:165px;
+	height:220px;
+}
+
+#barcelona{
+	width:292px;
+	height:220px;
+}
+
+#nina{
+	width:176px;
+	height:220px;
+}
+/* end of CSS for image options*/
 
 /* will effect all. box-szing it from https://www.w3schools.com/css/css_rwd_grid.asp. It was used to create my resume format so the item won't overlap on each*/
 *{
@@ -101,6 +127,8 @@ section{
 /*All different muted colours to not draw away to the basic resume format*/	
 /* Followed examples on https://www.w3schools.com/css/css_link.asp*/
 
+
+/*CSS for Link Options*/
 /*created an class for the external to make it only change the extneral links*/
 /* idea gotten from :https://www.learningaboutelectronics.com/Articles/How-to-add-a-class-or-id-to-an-anchor-tag-in-HTML.php*/
 .external{
@@ -116,11 +144,15 @@ section{
 	color:#2F4F4F;
 }
 	
-.external:active{
+.external:hover{
 	color:#FF7F50;
 	font-weight:bold;
 }
 
+/*End of Css for link option*/
+
+
+/*CSS for table option*/
 /* Followed examples on https://www.w3schools.com/css/css_table.asp*/
 /*Added colour to follow my theme*/
 th{
@@ -144,3 +176,5 @@ td,tr {
 	text-align:center;
 	
 	}
+	
+/* End of CSS for table option*/
