@@ -22,14 +22,15 @@ h2{
 h3{
 	font-family:Arial, Helvetic,sans-serif;
 	padding-left:2%;
-	font-size:19px;
+	font-size:19 px;
 }
 
 /* paragraph used on the second pages. Second page it a bit more fun.centered it, made font size bigger*/
 p{
 	text-align: center;
-	font-size: 18px;
+	font-size: 18 px;
 	font-weight:normal;
+	text-color:#191970;
 	}
 
 div{
