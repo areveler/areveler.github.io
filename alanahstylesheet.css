@@ -1,0 +1,146 @@
+/*The first page is my resume and was inspired from my own resume, causing it to be a bit boring. Not a lot of color*/
+/*second page is a get to know me and it a bit more colourful primarily using my favourite colours but still muted to not throw it off*/
+
+/* Any colours mentioned in hex were gotten from:https://www.w3schools.com/cssref/css_colors.php*/
+
+/* Header1 used in both pages. Again resume it plain so I just changed font,size and centered it*/
+h1 {
+	text-align: center;
+	font-family:Arial, Helvetic,sans-serif;
+	font-size:45px;
+}
+
+
+/* Header2 used in both pages. Again resume it plain so I just changed font,size and added padding so it wasn't right on the edge*/
+h2{
+	font-family:Arial, Helvetic,sans-serif;
+	padding-left:2%;
+	font-size:25px;
+}
+
+/* Header1 used on the first pages. Again resume it plain so I just changed font,size and added padding so it wasn't right on the edge*/
+h3{
+	font-family:Arial, Helvetic,sans-serif;
+	padding-left:2%;
+	font-size:19px;
+}
+
+/* paragraph used on the second pages. Second page it a bit more fun. Made font blue to change it up, centered it, made font size bigger*/
+p{
+	text-align: center;
+	font-size: 18px;
+	color:#00008B;
+	font-weight:normal;
+	}
+
+div{
+	padding:10px;
+}
+/*	Only on resume page. Not super exciting, adding padding to be indented and made bullets square*/
+ul{
+	padding-left:45px;
+	list-style-type:square;
+}
+/*	Only on resume page. Not super exciting, changed font, size, and padding for indent*/
+li{
+	padding-left:10px;
+	font-family:Arial, Helvetic, sans-serif;
+	font-size:16px;
+}
+/*Having the images centered made it look balence. Informationt to center is from: https://www.w3schools.com/howto/howto_css_image_center.asp*/
+img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* will effect all. box-szing it from https://www.w3schools.com/css/css_rwd_grid.asp. It was used to create my resume format so the item won't overlap on each*/
+*{
+	box-sizing: border-box;
+	font-weight:lighter;
+}
+
+/* following https://www.w3schools.com/css/css_rwd_grid.asp used section as container box to put stuff in*/
+section{
+	width:100%;
+	float:right;
+}
+
+/* following https://www.w3schools.com/css/css_rwd_grid.asp the two headers to make the items sit away from each other*/
+/* key proteru used is float to keep tags away from each other https://www.w3schools.com/css/css_float.asp , padding so they arn't right at the edge*/
+/* How I implemented classes and id from:https://www.w3schools.com/css/css_selectors.asp*/
+.header1{
+	width:20%;
+	float:left;
+}
+.header2{
+	width:80%;
+	float:right;
+}
+
+/* Used on the second page to add light colour in the background. Orange and blue are my favourite colour so it felt fitting. Using class id allows me to change it up between the two*/
+.orange{
+	background-color:#FFDAB9;
+}
+/* Used on the second page to add light colour in the background. Orange and blue are my favourite colour so it felt fitting. Using class id allows me to change it up between the two*/
+.blue{
+	background-color:#F0F8FF
+}
+
+	
+/*used id to practice different selectors. Bold enphasied a sentence and color is a bit light it draw it back.*/
+	
+#bold{
+	font-weight:bold;
+	}
+/*used id to practice different selectors. Different shades of blue to go with the theme*/
+#color{
+	color:#6495ED;
+	}
+/* Different setting for the links activities*/
+/*All different muted colours to not draw away to the basic resume format*/	
+/* Followed examples on https://www.w3schools.com/css/css_link.asp*/
+
+/*created an class for the external to make it only change the extneral links*/
+/* idea gotten from :https://www.learningaboutelectronics.com/Articles/How-to-add-a-class-or-id-to-an-anchor-tag-in-HTML.php*/
+.external{
+	text-align:center;
+}
+.external:link{
+	font-weight:bold;
+	color:#8A2BE2;
+}
+	
+.external:visited{
+	font-weight:normal;
+	color:#2F4F4F;
+}
+	
+.external:active{
+	color:#FF7F50;
+	font-weight:bold;
+}
+
+/* Followed examples on https://www.w3schools.com/css/css_table.asp*/
+/*Added colour to follow my theme*/
+th{
+	text-align: center;
+	font-size: 20px;
+	border: 1px solid black;
+	padding:20px;
+	background-color:#FFDAB9;
+	letter-spacing:5px;
+	}
+	
+table {
+	border-collapse:collapse;
+	width:500px;
+	margin:20px;
+	}
+	
+td,tr {
+	border: 1px solid black;
+	background-color:#F0F8FF;
+	text-align:center;
+	
+	}
