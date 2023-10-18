@@ -55,6 +55,9 @@ img{
 	margin-left:auto;
 	margin-right:auto;
 }
+a{
+	letter-spaceing:5px;
+}
 	
 #headshot{
 	width:200px;
